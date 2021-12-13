@@ -1,7 +1,11 @@
 import { Auth } from 'aws-amplify';
 
+
+console.log("once")
+
 function myFunction() {
-    alert("The form was submitted");
+  console.log("Hre")
+  alert("The form was submitted");
 }
 
 const form = document.getElementById('form');
