@@ -1,5 +1,3 @@
-'use strict'
-
 import { Auth } from 'aws-amplify';
 
 function myFunction() {
