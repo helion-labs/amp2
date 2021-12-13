@@ -1,5 +1,4 @@
-//import { Auth } from './aws-amplify';
-
+import { Auth } from './aws-amplify';
 
 console.log("once")
 
@@ -8,5 +7,5 @@ function myFunction() {
   console.log(email)
 }
 
-const form = document.getElementById('form');
-form.addEventListener('submit', myFunction);
+const butt = document.getElementById('butt');
+form.addEventListener('Click', myFunction);
