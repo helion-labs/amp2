@@ -8,4 +8,4 @@ function myFunction() {
 }
 
 const butt = document.getElementById('butt');
-butt.addEventListener('Click', myFunction);
+butt.addEventListener('click', myFunction);
